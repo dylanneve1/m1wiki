@@ -6,7 +6,17 @@
 //
 
 import Foundation
+import UIKit
 
-// struct buttonListener: {
-    
-// }
+extension UIViewController {
+
+    func buttonListenerEvenHandler(stringToReturn : String) -> String{
+        let buttonListenerOutput = String("Test")
+        return buttonListenerOutput
+    }
+
+    func foo() -> String {
+        return "foo"
+    }
+
+}
