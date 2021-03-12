@@ -10,7 +10,7 @@ import Foundation
 
 class buttonStuff {
 
-    class func buttonListenerEvenHandler() -> String {
-        return "Button Listener: Button Pressed"
+    class func buttonListenerEvenHandler(buttonType: String) -> String {
+        return "Button Listener: " + buttonType
     }
 }
