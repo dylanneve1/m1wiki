@@ -11,6 +11,7 @@
 		4B34261925FB6139006D641F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B34261825FB6139006D641F /* ContentView.swift */; };
 		4B34261B25FB6139006D641F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B34261A25FB6139006D641F /* Assets.xcassets */; };
 		4B34261E25FB6139006D641F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B34261D25FB6139006D641F /* Preview Assets.xcassets */; };
+		4B9B76EA25FB659900BF22F6 /* buttonListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B76E925FB659900BF22F6 /* buttonListener.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4B34261D25FB6139006D641F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B34261F25FB6139006D641F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B34262025FB6139006D641F /* m1wiki.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = m1wiki.entitlements; sourceTree = "<group>"; };
+		4B9B76E925FB659900BF22F6 /* buttonListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonListener.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		4B34261525FB6139006D641F /* m1wiki */ = {
 			isa = PBXGroup;
 			children = (
+				4B9B76E925FB659900BF22F6 /* buttonListener.swift */,
 				4B34261625FB6139006D641F /* m1wikiApp.swift */,
 				4B34261825FB6139006D641F /* ContentView.swift */,
 				4B34261A25FB6139006D641F /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B34261925FB6139006D641F /* ContentView.swift in Sources */,
+				4B9B76EA25FB659900BF22F6 /* buttonListener.swift in Sources */,
 				4B34261725FB6139006D641F /* m1wikiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
