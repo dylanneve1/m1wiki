@@ -6,17 +6,15 @@
 //
 
 import Foundation
-import UIKit
 
-extension UIViewController {
+class buttonStuff {
 
-    func buttonListenerEvenHandler(stringToReturn : String) -> String{
+    class func buttonListenerEvenHandler(stringToReturn : String) -> String{
         let buttonListenerOutput = String("Test")
         return buttonListenerOutput
     }
 
-    func foo() -> String {
+    class func foo() -> String {
         return "foo"
     }
-
 }

@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import CoreData
+var pM1 = "M1 Performance"
+var iM1 = "Intel VS Apple Silicon"
 
 struct ContentView: View {
     var body: some View {
@@ -16,10 +19,13 @@ struct ContentView: View {
         Text("This is an app where you can find all the useful info you need on Apple's new M1 processors")
             .padding(.vertical, 5.0)
             .frame(width: 250.0, height: 75.0, alignment: /*@START_MENU_TOKEN@*/.top/*@END_MENU_TOKEN@*/)
-        Button("Intel VS Apple Silicon") {
+        Button(iM1) {
+            //var output = testFunc()
+            //print(output)
         }
-        Button("M1 Performance") {
+        Button(pM1) {
         }
+        .padding(25)
     }
 }
 
