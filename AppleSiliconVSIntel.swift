@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 func showWindowVS() {
+    print("Starting New Window: Intel VS APS.")
     var windowRefTwo:NSWindow
     windowRefTwo = NSWindow(
         contentRect: NSRect(x: 0, y: 0, width: 100, height: 100),
@@ -35,7 +36,7 @@ struct MyViewTwo: View {
                 .padding(.vertical, 5.0)
                 .frame(width: 250, height: 10.0, alignment: .top)
 
-            Text("- AARCH64 means it is optimal for mobile use.")
+            Text("- It is optimal for mobile use.")
                 .padding(.vertical, 5.0)
                 .frame(width: 250, height: 10.0, alignment: .top)
 

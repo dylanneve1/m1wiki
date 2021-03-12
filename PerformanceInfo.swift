@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 func showWindowPerformance() {
+    print("Starting New Window: Performance.")
     var windowRef:NSWindow
     windowRef = NSWindow(
         contentRect: NSRect(x: 0, y: 0, width: 100, height: 100),
