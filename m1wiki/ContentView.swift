@@ -33,6 +33,7 @@ struct ContentView: View {
             let output = buttonStuff.buttonListenerEvenHandler(buttonType: iM1)
             print(output)
             buttonStuff.buttonEvents(buttonEvent: 1)
+            showWindowVS()
         }
         
         Button(pM1) {
