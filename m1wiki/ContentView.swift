@@ -39,7 +39,7 @@ struct ContentView: View {
             let output = buttonStuff.buttonListenerEvenHandler(buttonType: pM1)
             print(output)
             buttonStuff.buttonEvents(buttonEvent: 2)
-            showWindow()
+            showWindowPerformance()
         }
         
         .padding(25)
