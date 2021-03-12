@@ -17,11 +17,11 @@ class buttonStuff {
     class func buttonEvents(buttonEvent: Int) {
         
         if(buttonEvent == 1) {
-            
+            showWindowVS()
         }
         
-        if(buttonEvent == 1) {
-            
+        if(buttonEvent == 2) {
+            showWindowPerformance()
         }
     }
 }
