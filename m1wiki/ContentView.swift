@@ -32,11 +32,13 @@ struct ContentView: View {
         Button(iM1) {
             let output = buttonStuff.buttonListenerEvenHandler(buttonType: iM1)
             print(output)
+            buttonStuff.buttonEvents(buttonEvent: 1)
         }
         
         Button(pM1) {
             let output = buttonStuff.buttonListenerEvenHandler(buttonType: pM1)
             print(output)
+            buttonStuff.buttonEvents(buttonEvent: 2)
         }
         
         .padding(25)
