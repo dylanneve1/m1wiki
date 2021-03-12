@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CoreData
+var bStuff = buttonStuff()
 var pM1 = "M1 Performance"
 var iM1 = "Intel VS Apple Silicon"
 
@@ -20,10 +21,12 @@ struct ContentView: View {
             .padding(.vertical, 5.0)
             .frame(width: 250.0, height: 75.0, alignment: /*@START_MENU_TOKEN@*/.top/*@END_MENU_TOKEN@*/)
         Button(iM1) {
-            //var output = testFunc()
-            //print(output)
+            let output = buttonStuff.buttonListenerEvenHandler()
+            print(output)
         }
         Button(pM1) {
+            let output = buttonStuff.buttonListenerEvenHandler()
+            print(output)
         }
         .padding(25)
     }
